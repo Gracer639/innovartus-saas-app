@@ -1,7 +1,10 @@
 from flask import Flask
+
 app = Flask(__name__)
+
 @app.route("/")
 def home():
-    return "<h1>Innovartus SaaS App - Live from the Cloud!</h1>"
+    return "Innovartus SaaS App is running!"
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
