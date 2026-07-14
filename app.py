@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Innovartus SaaS App is running!"
+    return "Welcome to Innovartus — your SaaS app is live and running!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
